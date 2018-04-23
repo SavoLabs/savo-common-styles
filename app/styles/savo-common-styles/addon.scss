@@ -1,0 +1,18 @@
+@import 'utility/normalize';
+
+@import '_variables';
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $mainBackground;
+}
+//background classes ment to be applied to the body to modify the bg color
+.bg-default {
+  background-color: $mainBackground;
+}
+.bg-alt {
+  background-color: $altBackground;
+}

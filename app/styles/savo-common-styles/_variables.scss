@@ -1,0 +1,53 @@
+// Utility
+$image-directory-path: '/assets/images';
+
+// Media Query Sizes
+$customScreen: 320px;
+$extraSmallScreen: 480px;
+$smallScreen: 768px;
+$mediumScreen: 992px;
+$largeScreen: 1280px;
+
+// Typography
+$font-family-default: 'Proxima Nova', Arial, sans-serif;
+$line-height-base: 1.35;
+$font-size-default: 1em;
+$font-size-base: $font-size-default;
+$font-weight-bold: 700;
+$font-weight-semi-bold: 600;
+
+$mainBackground: #ffffff;
+$altBackground: #e6e6e6;
+
+$text-color-base: #333;
+$text-color-link: #009fc2;
+$text-color-light: #fff;
+$text-color-muted: #aaaaaa;
+
+$color-primary: #009fc2;
+$color-alt: #66c2cc;
+$color-inactive: #aaaaaa;
+$color-t1: #ce1b46;
+$color-t2: #377ef0;
+$color-t3: #ff7b0a;
+$color-t4: #52b528;
+$color-t5: #29295c;
+
+//themes
+
+//dark
+$dark-border: rgba(51, 51, 51, 0.97);
+$dark-background: rgba(51, 51, 51, 0.97);
+$dark-background--active: #009fc2;
+
+// Cards
+$card-gutter-size: 1%;
+$card-columns-small: 2;
+$card-columns-medium: 3;
+$card-columns-large: 4;
+$card-background: #fff;
+$card-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+$card-media-border-bottom-color: #e7e9ec;
+$card-media-border-bottom: solid 1px $card-media-border-bottom-color;
+$card-icon-padding-right: 5px;
+$card-flag-color: $color-t1;
